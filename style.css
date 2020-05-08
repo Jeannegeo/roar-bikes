@@ -1,0 +1,199 @@
+html{
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body{
+    background-image: url(img/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width:1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1{
+    background-image: url(img/image-background-card1.jpg);
+    width: 30%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card2{
+    background-image: url(img/image-background-card2.jpg);
+    width: 30%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card3{
+    background-image: url(img/image-background-card3.jpg);
+    width: 30%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.herobox1{
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2{
+    flex:1;
+}
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 1rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 1.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 20px 30px 20px 30px;
+}
+
+.cards i {
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton{
+    background-color: white;    
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+}
+
+.mybutton:hover{
+    background-color: rgb(122, 236, 118);
+    transition-duration: 1s;
+}
+
+.navbutton{
+    padding: 11px 25px;
+    background-color: none;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox :last-child{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.tbox p:last-of-type{
+    padding-left: 30px;
+}
+
+/* Turns off when don't hover over menu */
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    margin-left: -27px;
+}
+
+/* ON when hover over menu items */
+.navbutton:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu .navbutton{
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown-menu .navbutton a{
+    width: 120px;
+    color: #FA4083;
+}
+
+.dropdown-menu .navbutton:hover{
+    background-color: rgb(122, 236, 118);
+    transition-duration: 1s;
+}
